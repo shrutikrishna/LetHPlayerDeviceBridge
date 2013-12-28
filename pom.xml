@@ -1,0 +1,106 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.promotionlh.LHPlayer.DeviceBridge</groupId>
+    <artifactId>LetHPlayerDeviceBridge</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>LetHPlayerDeviceBridge</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.swinglabs</groupId>
+            <artifactId>pdf-renderer</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>1.7.0</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>org.rxtx</groupId>
+            <artifactId>rxtxcomm</artifactId>
+            <version>2.0-7pre1</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>merapi</groupId>
+            <artifactId>merapi-core</artifactId>
+            <scope>compile</scope>
+            <version>0.1.8</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>merapi</groupId>
+            <artifactId>merapi-core-dev</artifactId>
+            <scope>compile</scope>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>spring</groupId>
+            <artifactId>spring</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>tools</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+            
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>com.adobe.blazeds</groupId>
+            <artifactId>blazeds-common</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        
+        <!-- Manually installed in the repo -->
+        <dependency>
+            <groupId>com.adobe.blazeds</groupId>
+            <artifactId>blazeds-core</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+            
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        
+    </dependencies>
+    
+</project>
